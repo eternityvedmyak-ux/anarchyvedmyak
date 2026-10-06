@@ -1,0 +1,20 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/admin/login/route": "app/api/admin/login/route.js",
+  "/api/admin/logout/route": "app/api/admin/logout/route.js",
+  "/api/orders/[id]/pay/route": "app/api/orders/[id]/pay/route.js",
+  "/api/orders/[id]/route": "app/api/orders/[id]/route.js",
+  "/agreement/page": "app/agreement/page.js",
+  "/admin/page": "app/admin/page.js",
+  "/api/orders/route": "app/api/orders/route.js",
+  "/api/payments/webhook/route": "app/api/payments/webhook/route.js",
+  "/checkout/[id]/page": "app/checkout/[id]/page.js",
+  "/payment-info/page": "app/payment-info/page.js",
+  "/howto/page": "app/howto/page.js",
+  "/privacy/page": "app/privacy/page.js",
+  "/contacts/page": "app/contacts/page.js",
+  "/api/config/route": "app/api/config/route.js",
+  "/rules/page": "app/rules/page.js",
+  "/shop/page": "app/shop/page.js",
+  "/page": "app/page.js"
+}

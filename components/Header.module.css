@@ -1,0 +1,153 @@
+.bar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(6, 6, 12, 0.6);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--border);
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 12px 20px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+.logo {
+  height: 46px;
+  width: auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.45);
+  transition: transform 0.3s ease;
+}
+.brand:hover .logo {
+  transform: rotate(-4deg) scale(1.05);
+}
+.brandText {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+.brandName {
+  font-weight: 800;
+  font-size: 18px;
+  color: var(--text);
+}
+.brandTag {
+  font-size: 10px;
+  color: var(--accent-2);
+  font-family: "Press Start 2P", monospace;
+  letter-spacing: 0.5px;
+}
+
+.nav {
+  display: flex;
+  gap: 4px;
+  flex: 1;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.link {
+  position: relative;
+  padding: 9px 16px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--muted);
+  transition: color 0.2s ease;
+}
+.link:hover {
+  color: var(--text);
+}
+.linkText {
+  position: relative;
+  z-index: 1;
+}
+.activeBg {
+  position: absolute;
+  inset: 0;
+  border-radius: 999px;
+  background: var(--grad);
+  box-shadow: 0 8px 22px rgba(139, 92, 246, 0.5);
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-shrink: 0;
+}
+.socialBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  color: var(--muted);
+  transition: color 0.2s ease, background 0.2s ease, transform 0.2s ease;
+}
+.socialBtn:hover {
+  color: #fff;
+  background: var(--grad);
+  transform: translateY(-2px);
+}
+
+.burger {
+  display: none;
+  flex-direction: column;
+  gap: 4px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+}
+.burger span {
+  width: 22px;
+  height: 2px;
+  background: var(--text);
+  border-radius: 2px;
+}
+
+.mobilePanel {
+  overflow: hidden;
+  border-bottom: 1px solid var(--border);
+  background: rgba(6, 6, 12, 0.92);
+}
+.mobileLink {
+  display: block;
+  padding: 14px 24px;
+  color: var(--muted);
+  border-bottom: 1px solid var(--border);
+}
+.mobileLink:last-child {
+  border-bottom: none;
+}
+.mobileActive {
+  color: #fff;
+  background: var(--grad-soft);
+}
+
+@media (max-width: 860px) {
+  .brandText {
+    display: none;
+  }
+  .nav {
+    display: none;
+  }
+  .socials {
+    margin-left: auto;
+  }
+  .burger {
+    display: flex;
+  }
+}

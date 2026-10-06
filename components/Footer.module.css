@@ -1,0 +1,65 @@
+.footer {
+  margin-top: 60px;
+  border-top: 1px solid var(--border);
+  background: var(--bg-2);
+  padding: 40px 0 28px;
+}
+
+.payments {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 26px;
+}
+.pay {
+  height: 30px;
+  border-radius: 6px;
+}
+
+.links {
+  display: flex;
+  gap: 22px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 26px;
+}
+.links a {
+  color: var(--muted);
+  font-size: 14px;
+  transition: color 0.15s ease;
+}
+.links a:hover {
+  color: var(--accent-2);
+}
+
+.legal {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 320px));
+  gap: 6px 40px;
+  justify-content: center;
+  margin: 0 auto 22px;
+  max-width: 720px;
+}
+.legalRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  border-bottom: 1px dashed var(--border);
+  padding: 6px 0;
+  font-size: 14px;
+}
+.legalRow span:first-child {
+  color: var(--muted);
+}
+.legalRow a {
+  color: var(--accent-2);
+}
+
+.disclaimer {
+  text-align: center;
+  color: var(--muted);
+  font-size: 13px;
+  max-width: 640px;
+  margin: 0 auto;
+}

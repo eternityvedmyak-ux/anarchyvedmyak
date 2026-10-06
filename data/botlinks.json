@@ -1,0 +1,24 @@
+{
+  "byChat": {
+    "8322838045": {
+      "verified": false,
+      "state": "await_verify",
+      "nick": "vedmyakk",
+      "code": "S9XFVQ",
+      "uuid": null,
+      "chatId": "8322838045"
+    },
+    "8882698457": {
+      "verified": false,
+      "state": "await_nick",
+      "nick": "",
+      "code": null,
+      "uuid": null,
+      "chatId": "8882698457"
+    }
+  },
+  "byCode": {
+    "8Z8SDR": "8882698457",
+    "S9XFVQ": "8322838045"
+  }
+}

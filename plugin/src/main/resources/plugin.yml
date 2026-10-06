@@ -1,0 +1,4 @@
+name: TelegramLink
+version: 1.0
+main: ru.eternity1.telegramlink.TelegramLinkPlugin
+api-version: 1.21
