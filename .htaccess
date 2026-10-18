@@ -1,0 +1,10 @@
+# ReallyWorld — корневой .htaccess
+Options -Indexes
+
+# Закрыть дампы БД, логи, доки и батники от скачивания
+<FilesMatch "\.(sql|log|md|bat|sqlite|sqlite-wal|sqlite-shm|db)$">
+  Require all denied
+</FilesMatch>
+
+# UTF-8 по умолчанию
+AddDefaultCharset UTF-8

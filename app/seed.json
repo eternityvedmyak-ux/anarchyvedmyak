@@ -1,0 +1,176 @@
+[
+ {
+  "name": "GOD",
+  "price": "4444 ₽",
+  "old": "7777 ₽",
+  "img": "/images/privileges/god2.png"
+ },
+ {
+  "name": "HELPER",
+  "price": "6666 ₽",
+  "old": "",
+  "img": "/images/privileges/new/HELPER.png"
+ },
+ {
+  "name": "DRAGON",
+  "price": "1899 ₽",
+  "old": "",
+  "img": "/images/privileges/new/DRAGON.png"
+ },
+ {
+  "name": "IMPERATOR",
+  "price": "999 ₽",
+  "old": "",
+  "img": "/images/privileges/new/IMPERATOR.png"
+ },
+ {
+  "name": "MAGISTER",
+  "price": "589 ₽",
+  "old": "",
+  "img": "/images/privileges/new/MAGISTER.png"
+ },
+ {
+  "name": "OVERLORD",
+  "price": "289 ₽",
+  "old": "",
+  "img": "/images/privileges/new/OVERLORD.png"
+ },
+ {
+  "name": "AVENGER",
+  "price": "129 ₽",
+  "old": "",
+  "img": "/images/privileges/new/AVENGER.png"
+ },
+ {
+  "name": "TITAN",
+  "price": "89 ₽",
+  "old": "",
+  "img": "/images/privileges/titan.webp"
+ },
+ {
+  "name": "HERO",
+  "price": "39 ₽",
+  "old": "",
+  "img": "/images/privileges/new/HERO.png"
+ },
+ {
+  "name": "3 сундука с донат вещами",
+  "price": "399 ₽",
+  "old": "",
+  "img": "/images/privileges/new/donatitem1.png"
+ },
+ {
+  "name": "5 сундуков с донат вещами",
+  "price": "649 ₽",
+  "old": "",
+  "img": "/images/privileges/new/donatitem2.png"
+ },
+ {
+  "name": "10 сундуков с донат вещами",
+  "price": "1299 ₽",
+  "old": "",
+  "img": "/images/privileges/new/donatitem3.png"
+ },
+ {
+  "name": "3 сундука с Донатом",
+  "price": "119 ₽",
+  "old": "",
+  "img": "/images/privileges/new/casedonat1.jpg"
+ },
+ {
+  "name": "10 сундуков с Донатом",
+  "price": "249 ₽",
+  "old": "",
+  "img": "/images/privileges/new/casedonat2.png"
+ },
+ {
+  "name": "25 сундуков с Донатом",
+  "price": "399 ₽",
+  "old": "",
+  "img": "/images/privileges/new/casedonat3.png"
+ },
+ {
+  "name": "3 сундука с Валютой",
+  "price": "46 ₽",
+  "old": "",
+  "img": "/images/privileges/new/money1.png"
+ },
+ {
+  "name": "10 сундуков с Валютой",
+  "price": "149 ₽",
+  "old": "",
+  "img": "/images/privileges/new/money2.png"
+ },
+ {
+  "name": "25 сундуков с Валютой",
+  "price": "399 ₽",
+  "old": "",
+  "img": "/images/privileges/new/money3.png"
+ },
+ {
+  "name": "3 сундука с Префиксами",
+  "price": "59 ₽",
+  "old": "",
+  "img": "/images/privileges/new/prefix1.png"
+ },
+ {
+  "name": "10 сундуков с Префиксами",
+  "price": "149 ₽",
+  "old": "",
+  "img": "/images/privileges/new/prefix2.png"
+ },
+ {
+  "name": "25 сундуков с префиксами",
+  "price": "239 ₽",
+  "old": "",
+  "img": "/images/privileges/new/prefix3.png"
+ },
+ {
+  "name": "3 сундука с Китами",
+  "price": "299 ₽",
+  "old": "",
+  "img": "/images/privileges/new/casedonat1.jpg"
+ },
+ {
+  "name": "5 сундуков с Китами",
+  "price": "489 ₽",
+  "old": "",
+  "img": "/images/privileges/new/casedonat2.png"
+ },
+ {
+  "name": "10 сундуков с Китами",
+  "price": "799 ₽",
+  "old": "",
+  "img": "/images/privileges/new/casedonat3.png"
+ },
+ {
+  "name": "1 сундук с Рилликами",
+  "price": "99 ₽",
+  "old": "",
+  "img": "/images/privileges/new/really1.png"
+ },
+ {
+  "name": "3 сундука с Рилликами",
+  "price": "269 ₽",
+  "old": "",
+  "img": "/images/privileges/new/really2.png"
+ },
+ {
+  "name": "5 сундуков с Рилликами",
+  "price": "419 ₽",
+  "old": "",
+  "img": "/images/privileges/new/really1.png"
+ },
+ {
+  "name": "Разбан",
+  "price": "349 ₽",
+  "old": "",
+  "img": "/images/privileges/new/unban.png"
+ },
+ {
+  "name": "Размут",
+  "price": "119 ₽",
+  "old": "",
+  "img": "/images/privileges/new/unmute.png"
+ }
+]
